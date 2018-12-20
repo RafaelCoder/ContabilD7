@@ -4,7 +4,7 @@ object ovF_Principal: TovF_Principal
   Width = 924
   Height = 480
   Caption = 'ovF_Principal'
-  Color = clBtnFace
+  Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -18,12 +18,14 @@ object ovF_Principal: TovF_Principal
   PixelsPerInch = 96
   TextHeight = 13
   object ovMM: TMainMenu
+    OwnerDraw = True
     Left = 384
     Top = 168
     object Cadastros1: TMenuItem
       Caption = 'Cadastros'
       object Contas1: TMenuItem
         Caption = 'Contas'
+        OnClick = Contas1Click
       end
     end
     object Lanamentos1: TMenuItem
