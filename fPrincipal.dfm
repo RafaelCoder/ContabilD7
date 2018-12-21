@@ -3,7 +3,7 @@ object ovF_Principal: TovF_Principal
   Top = 117
   Width = 924
   Height = 480
-  Caption = 'ovF_Principal'
+  Caption = 'Sistema Contabil'
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
